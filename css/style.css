@@ -1,0 +1,315 @@
+*{
+    margin: 10px 10px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.main-menu{
+    display: flex;
+}
+.main-items-active{
+    color: black;
+    margin-right:  50px;
+    font-size: 20px;
+
+}
+.main-items{
+    color: grey;
+    margin-right:  50px;
+    font-size: 20px;
+}
+
+.btn-1{
+    background-color: transparent;
+    padding: 5px 40px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 10px;
+    color: #25A7FF;
+    font-size: 20px;
+    border-color: #25A7FF;
+}
+
+.main-body{
+    margin-top: 30px;
+}
+
+.container-1{
+    display: flex;
+}
+
+.left-1{
+margin: 60px 20px;
+}
+
+.head{
+    font-size: 70px
+}
+.p{
+    font-size: 25px;
+    color: grey;
+    margin: 20px 0;
+}
+
+.btn-2{
+background-color: #25A7FF;
+padding: 10px 40px;
+font-size: 20px;
+border-radius: 10px;
+color: #fff;
+}
+.container-2{
+    display: flex;
+}
+.container-3{
+    display: flex;
+}
+
+.container-4{
+    display: flex;
+    
+}
+
+.left-4{
+    flex: 100%;
+    font-size: 80px;
+    width: 50vh;
+    padding: 0 20px;
+    color: #02367C;
+}
+
+.right-4{
+    flex: 100%;
+    font-size: 20px;
+    color: grey;
+    padding: 5px 20px;
+}
+.container-5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.services{
+    width: 50vh;
+    padding:0 30px;
+}
+.service-heading{
+    padding: 5px 0;
+
+}
+.service-desc{
+    color: grey;
+    
+    
+}
+
+.container-6{
+    background-color: rgb(12,169,255);
+    padding: 50px;
+}
+
+.head-6{
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 30px;
+}
+
+.body-6{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0 100px;
+
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 20px;
+   width: 25%;
+   position: relative;
+}
+
+
+.card-h{
+font-size: 45px;
+margin: 0px;
+padding: 20px 10px;
+}
+
+.card-p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: grey;
+    padding: 5px 10px;
+}
+.card-options{
+    font-size: 18px;
+    padding: 10px;
+    padding: 5px 20px;
+}
+.card-options::before{
+    content: "";
+    display: block;
+    background: url(/assets/images/list-img.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: 30px;
+    top:25px
+
+  }
+  .card-active{
+width: 25%;
+
+    
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    /* padding: 20px 40px; */
+    
+    /* background-color: rgb(27, 25, 25); */
+    background-clip: border-box;
+  }
+  
+
+  .card-head-active{
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    /* background-color: rgb(14, 14, 14); */
+    
+
+    
+  }
+.card-h-active{
+font-size: 45px;
+color: #fff;
+
+}
+
+.card-p-active{
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: grey;
+}
+.card-active .card-body {
+    
+    
+}
+
+
+.price-div{
+    align-content: center;
+    position: absolute;
+    bottom: 10px;
+    
+}
+
+.card-body{
+    margin-bottom: 200px;
+}
+.duration{
+    color: grey;
+}
+
+
+
+
+.customer {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 30px;
+padding: 0 300px;
+}
+.customer h1{
+    font-size: 50px;
+}
+.customer p{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.review-container{
+    border: 3px solid rgb(251, 245, 245);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 40%;
+    padding: 10px;
+   
+
+}
+
+.review-name{
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+}
+
+.review-name::before{
+
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgb(162, 160, 160);
+    position: relative;
+    right: 80px;
+    top: 80px;
+}
+
+.review-container p{
+    font-size: 20px;
+    color: grey;
+}
+
+.worry-container{
+
+    margin-top: 82px;
+    background-color: #25A7FF;
+    padding: 50px 50px;
+    
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.worry{
+    width: 500px;
+}
+.worry h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+.worry  p{
+    font-size: 20px;
+    color: white;
+    
+}
+
+.container-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+
+.logo-bottom{
+    width: 300px;
+}
